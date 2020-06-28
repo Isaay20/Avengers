@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Avengers</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity=
+    "sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/weather-icons-wind.min.css">
+    <link rel="stylesheet" href="css/weather-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+</head>
+<body  class="animate__animated animate__backInDown">
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color:#031734 ;" >
+  <a class="navbar-brand" href="#">Avengers</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Capitan america</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Iron man</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Thor</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Hulk</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Viuda negra</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Ojo de halcon</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Mas</a>
+      </li>
+      <li class="nav-item dropdown">
+        
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-4" type="mail" placeholder="Ingresa tu correo">
+      <input class="form-control mr-sm-4 my-lg-2"type="password" placeholder="Ingresa tu contraseña">
+      <button class="btn btn-info" onmouseover="alert('Ingreso correctamente')"><i class="fas fa-save"></i> Ingresar</button>
+      
+      
+    </form>
+  </div>
+</nav>
+<div class="container-fluid">
+<div class ="page header">
+    <h1>
+        Avengers
+    </h1>
+</div>
+
+
+    <div class="row">
+      <div class="col-4">
+        <div class = "imagen">
+
+            <img src="avengers.jpg" class= "card-img-top" alt="...">
+                </div>
+                <div class="informacion">
+                    <p>
+                        Los Vengadores fueron un equipo compuesto por personas extraordinarias, individuos alterados u otras características 
+                        especiales, que se encargaba de proteger la Tierra de las amenazas internacionales o alienígenas. Aunque principalmente 
+                        estaban afiliados a los Estados Unidos, trabajaron teniendo en cuenta los intereses pacíficos del mundo en lugar de un 
+                        país u organización en específico. Fueron reunidos por Nicholas Fury y S.H.I.E.L.D. a través de la Iniciativa Vengadores 
+                        para que sean liderados por Steven Rogers y detengan la Invasión Chitauri de Loki, a quien vencieron en la Batalla de 
+                        Nueva York, antes de tomar caminos separados.
+                    </p>
+              </div>
+      </div>
+      <div class="col-4">
+        <div class="informacion">
+            <h3>
+                Registro
+            </h3>
+            <div class="form-group row">
+                <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                <div class="col-sm-10">
+                    <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                  </div>
+                  
+            </div>
+            <div class="form-group row">
+                <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+                <div class="col-sm-10">
+                  <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                </div>
+              </div> 
+              
+              <div class="form-group row">
+                  <label for="inputNombre" class="col-sm-2 col-form-label">Nombres</label>
+                  <div class="col-sm-10">
+                      <input type="text" class="form-control" id="inputText" placeholder="Nombre">
+                  </div>
+
+              </div>
+              <div class="form-group row">
+                  <label for="inputApellidop" class="col-sm-2 col-form-label">Apellido paterno</label>
+                  <div class="col-sm-10">
+                      <input type="text" class="form-control" id="inputText" placeholder="Apellido paterno">
+
+                  </div>
+
+              </div>
+              <div class="form-group row">
+                <label for="inputApellidom" class="col-sm-2 col-form-label">Apellido materno</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="inputText" placeholder="Apellido materno">
+
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="inputFechanac" class="col-sm-2 col-form-label">Fecha nacimiento</label>
+                <div class="col-sm-10">
+                    <input type="date" class="form-control" id="inputDate" placeholder="Fecha de nacimiento">
+
+                </div>
+              </div>
+              <div class="form-group row">
+                  <label for="inputSeleccionavengador" class="col-sm-2 col-form-label">Selecciona vengador favorito</label>
+                <select class="form-control form-control-sm">
+                    <option>Selecciona</option>
+                    <option>Iron man</option>
+                    <option>Capitan america</option>
+                    <option>Thor</option>
+                    <option>Hulk</option>
+                    <option>Viuda negra</option>
+                    <option>Ojo de halcon</option>
+                  </select>
+
+                </div>
+              </div>
+            
+      </div>
+      </div>
+       
+      
+  </div>
+
+</body>
+
+</html>

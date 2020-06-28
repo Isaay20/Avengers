@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   
+    <title>Registro</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity=
+    "sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/weather-icons-wind.min.css">
+    <link rel="stylesheet" href="css/weather-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+</head>
+<body style="background-color: #01031E;">
+    <div class="container">
+        <div class = "imagen">
+        <img src="logo.png" class= "card-img-top" alt="..." width="100" height="200">
+            </div>
+            <br>
+            <br>
+            
+            </div>
+<div class ="container">
+    <div class="letra1">
+
+    
+    <div class="informacion">
+        
+        <h3>
+            Registro
+        </h3>
+        
+
+        <div class="form-group row">
+            <label for="Email"id = "email" class="col-sm-2 col-form-label">Correo electronico</label>
+            <div class="col-sm-5">
+                <input type="email" class="form-control" id="email1" placeholder="Email" 
+                required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+                <label id="emailErroneo" class="sinEmail"></label>
+            </div>
+
+        </div>
+        <div class="form-group row">
+            <label for="Contraseña" class="col-sm-2 col-form-label">Contraseña</label>
+            <div class="col-sm-5">
+                <input type="password" class="form-control" id="Contraseña1" placeholder="Contraseña">
+                <label id="contraseñaEronea" class="sinContraseña"></label>
+            </div>
+
+        </div>
+       
+          
+          <div class="form-group row">
+              <label for="firstName"id ="labelName" class="col-sm-2 col-form-label">Nombres</label>
+              <div class="col-sm-5">
+                  <input type="text" id="Name" class="form-control" value="" required 
+                  placeholder="Nombres"  
+                  name="Nombre">
+                  <label id="mensajeNombre" class="mensajeErroneo"></label>
+              </div>
+
+          </div>
+          <div class="form-group row">
+              <label for="Apellidop" id ="lastNamep"class="col-sm-2 col-form-label">Apellido paterno</label>
+              <div class="col-sm-5">
+                  <input type="text" class="form-control" id="lastN" placeholder="Apellido paterno">
+                  <label id="mensajeApellido" class="mensajeErroneo"></label>
+              </div>
+
+          </div>
+          <div class="form-group row">
+            <label for="inputApellidom" class="col-sm-2 col-form-label">Apellido materno</label>
+            <div class="col-sm-5">
+                <input type="text" class="form-control" id="lastNameM" placeholder="Apellido materno">
+                <label id="mensajeApellidoM" class="mensajeErroneo"></label>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="inputFechanac" class="col-sm-2 col-form-label">Fecha nacimiento</label>
+            <div class="col-sm-5">
+                <input type="date" class="form-control" id="Date1" placeholder="Fecha de nacimiento">
+                <label id="dateFecha" class="dateErroneo"></label>
+            </div>
+          </div>
+          <div class="form-group row">
+              <label for="inputSeleccionavengador" class="col-sm-2 col-form-label">Selecciona vengador favorito</label>
+              <div class="col-sm-5">
+            <select class="form-control form-control-sm">
+                <option>Selecciona</option>
+                <option>Iron man</option>
+                <option>Capitan america</option>
+                <option>Thor</option>
+                <option>Hulk</option>
+                <option>Viuda negra</option>
+                <option>Ojo de halcon</option>
+              </select>
+            </div>
+        
+
+            </div>
+            <button class="btn btn-info" onclick="alert('se registro correctamente')"><i class="fas fa-save"></i> Registrar</button>
+          </div>
+          <section>
+              <div class="imagen-fondo">
+
+              </div>
+          </section>
+          </div>
+    </div>
+    <script src="registro.js" charset="UTF-8"></script>
+</body>
+</html>
